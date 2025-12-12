@@ -1,16 +1,84 @@
-# React + Vite
+DEPLOYED LINK:-
+https://quizvansh.netlify.app/
+📘 Quiz App – Frontend Assignment
+📌 Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a desktop-focused interactive quiz application built based on a provided Figma design.
+The goal was to recreate the UI as closely as possible while ensuring smooth interactions, clean state management, and good user experience.
 
-Currently, two official plugins are available:
+🚀 Setup Instructions
+1️⃣ Clone the repository
+git clone https://github.com/vansh13code/weddingcompany.git
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2️⃣ Navigate to the project folder
+cd quiz-app
 
-## React Compiler
+3️⃣ Install dependencies
+npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+4️⃣ Run the development server
+npm run dev
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The app will run on:
+
+http://localhost:517
+
+🛠 Tech Stack Used
+
+React.js (Vite)
+
+JavaScript (ES6+)
+
+Tailwind CSS
+
+Custom CSS animations
+
+HTML5
+
+✨ Key Features Implemented
+
+Pixel-accurate desktop UI based on Figma design (90–95% match)
+
+Multi-step quiz flow with:
+
+Forward / Back navigation
+
+Disabled navigation when not allowed
+
+Animated progress indicator
+
+Interactive option selection
+
+Score calculation with percentage
+
+Animated score counter on result screen
+
+Conditional rendering of:
+
+“Best of Luck” bubble
+
+Animated paw (shown only on first question)
+
+Clean and reusable component logic
+
+Smooth hover and transition effects
+
+⚠️ Assumptions Made
+
+The application is designed only for desktop screens, as specified
+
+Exact design assets (fonts / SVGs) were not provided, so closest system-safe alternatives were used
+
+Quiz questions and answers are static, no backend integration
+
+Accessibility best practices were followed where possible (contrast, button states)
+
+⏱ Time Spent on the Assignment
+Task	Time
+UI Implementation	~1 hours
+State Logic & Navigation	~2 hours
+Animations & Interactions	~1.5 hours
+Debugging & Refinement	~1.5 hours
+Documentation	~30 minutes
+Total	~6.5 hours
